@@ -1,0 +1,30 @@
+:basedir: :basedir: /Users/hyesu/Desktop/demo/
+:snippets: /Users/hyesu/Desktop/demo/build/generated-snippets
+
+= RESTful: Notes API Guide
+
+:doctype: user
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:sectanchors:
+
+== User API
+
+=== CURL Request
+include::{snippets}/user/curl-request.adoc[]
+
+=== HTTP Request
+include::{snippets}/user/http-request.adoc[]
+
+=== Path Parameters
+include::{snippets}/user/path-parameters.adoc[]
+
+=== HTTP Response
+include::{snippets}/user/http-response.adoc[]
+
+=== Response Fields
+include::{snippets}/user/response-fields.adoc[]
